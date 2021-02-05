@@ -14,7 +14,7 @@ namespace ConsoleUI
             //foreach (var item in carManager.GetAll())
             //{
             //    Console.WriteLine(item.DailyPrice); 
-            //}
+            //} 
 
             CarManager carManager = new CarManager(new EfCarDal());
             Car car = new Car();
