@@ -5,6 +5,7 @@ using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Business.Concrete
@@ -52,5 +53,7 @@ namespace Business.Concrete
         {
             return _icarDal.GetAll(p => p.ColorId == Id);
         }
+
+        
     }
 }
