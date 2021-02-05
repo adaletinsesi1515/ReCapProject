@@ -28,7 +28,7 @@ namespace ConsoleUI
 
             BrandManager ekle = new BrandManager(new EfBrandDal());
             Brand brand = new Brand();
-            brand.BrandName = "Tesla";
+            brand.BrandName = "Tesla1";
             ekle.Add(brand);
 
 
