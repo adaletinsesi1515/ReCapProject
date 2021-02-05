@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "AFQJcg87G+R2mLqWD/aepU0j4FaXCa2WFJKw9yF0kFeiEjHUEyI4fXWKbvN0nSE1wCgrzOJ30/65N0IRJdTRjQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Burdur\\source\\repos\\ReCapProject\\Entities\\Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Burdur\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Burdur\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
