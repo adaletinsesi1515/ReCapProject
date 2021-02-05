@@ -19,16 +19,16 @@ namespace ConsoleUI
             CarManager carManager = new CarManager(new EfCarDal());
             Car car = new Car();
             //car.Id = 11;
-            car.BrandId = 6;
-            car.ColorId = 4;
-            car.DailyPrice = 500;
+            car.BrandId = 7;
+            car.ColorId = 5;
+            car.DailyPrice = 600;
             car.ModelYear = 1999;
             car.Description = "Test";
             carManager.Add(car);
 
             BrandManager ekle = new BrandManager(new EfBrandDal());
             Brand brand = new Brand();
-            brand.BrandName = "Tesla1";
+            brand.BrandName = "Tesla2";
             ekle.Add(brand);
 
 
