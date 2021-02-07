@@ -1,18 +1,18 @@
 ﻿using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
-using System.Text;
 using System.Linq;
 using System.Linq.Expressions;
+using System.Text;
 
-namespace DataAccess.Concrete
+namespace DataAccess.Concrete.InMemory
 {
     public class InMemoryCarDal : ICarDal
     {
         List<Car> _Car;
-        List<Brand> _Brand;
-        List<Color> _Color;
+        
         public InMemoryCarDal()
         {
             _Car = new List<Car>
@@ -24,22 +24,7 @@ namespace DataAccess.Concrete
                 new Car{Id=5, BrandId=3, ColorId=5, ModelYear=1990, DailyPrice=1, Description="1990 model araç"},
             };
 
-            _Brand = new List<Brand>
-            {
-                new Brand{BrandId=1, BrandName="Renault"},
-                new Brand{BrandId=2, BrandName="Toyota"},
-                new Brand{BrandId=3, BrandName="Ford"},
-            };
-
-            _Color = new List<Color>
-            {
-                new Color{ColorId=1, ColorName="Lacivert"},
-                new Color{ColorId=2, ColorName="Beyaz"},
-                new Color{ColorId=3, ColorName="Sarı"},
-                new Color{ColorId=4, ColorName="Kırmızı"},
-                new Color{ColorId=5, ColorName="Gri"}
-
-            };
+          
 
 
 
@@ -80,6 +65,11 @@ namespace DataAccess.Concrete
         public List<Car> GetAllByColor(int ColorId)
         {
             return _Car.Where(p=>p.ColorId == ColorId).ToList();
+        }
+
+        public List<CarDetailsDto> GetCarDetails()
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Car car)

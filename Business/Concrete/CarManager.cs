@@ -2,6 +2,7 @@
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
+using Entities.DTOs;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -13,8 +14,7 @@ namespace Business.Concrete
     public class CarManager : ICarService
     {
         ICarDal _icarDal;
-        private object entity;
-
+        
         public CarManager(ICarDal IcarDal)
         {
             _icarDal = IcarDal;
@@ -42,6 +42,11 @@ namespace Business.Concrete
         public List<Car> GetAll()
         {
             return _icarDal.GetAll();
+        }
+
+        public List<CarDetailsDto> GetCarDetails()
+        {
+            return _icarDal.GetCarDetails();
         }
 
         public List<Car> GetCarsByBrandId(int Id)
