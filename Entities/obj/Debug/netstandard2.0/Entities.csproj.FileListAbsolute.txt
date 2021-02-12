@@ -10,3 +10,15 @@ C:\Users\Burdur\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Enti
 C:\Users\Burdur\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
 C:\Users\Burdur\source\repos\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
 C:\Users\Burdur\source\repos\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.deps.json
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.dll
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csprojAssemblyReference.cache
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfoInputs.cache
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.AssemblyInfo.cs
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CoreCompileInputs.cache
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.csproj.CopyComplete
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.dll
+C:\Users\ab96085\Documents\GitHub\ReCapProject\Entities\obj\Debug\netstandard2.0\Entities.pdb

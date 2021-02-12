@@ -33,15 +33,31 @@ namespace ConsoleUI
 
             AracDetayBilgileri();
 
+            
+
         }
 
         private static void AracDetayBilgileri()
         {
-            CarManager manager1 = new CarManager(new EfCarDal());
-            foreach (var item in manager1.GetCarDetails())
+            CarManager carManager = new CarManager(new EfCarDal());
+
+            var result = carManager.GetCarDetails();
+
+            if (result.Success == true)
             {
-                Console.WriteLine("Araba adı : " + item.CarName + " / " + "Araba Markası : " + item.BrandName + "/" + " Rengi : " + item.ColorName + "/" + " Günlük ücreti : " + item.DailyPrice);
+                foreach (var araba in result.Data)
+                {
+                    Console.WriteLine(araba.CarName+ "/" + araba.BrandName);
+                }
             }
+            else
+            {
+                Console.WriteLine(result.Message);
+            }
+
+
         }
+
+      
     }
 }

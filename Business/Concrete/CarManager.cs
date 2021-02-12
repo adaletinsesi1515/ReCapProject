@@ -1,4 +1,6 @@
-﻿using Business.Abstract;
+﻿using Business.Constant;
+using Business.Abstract;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using Entities.Concrete;
@@ -20,45 +22,38 @@ namespace Business.Concrete
             _icarDal = IcarDal;
         }
 
-        public void Add(Car car)
+
+
+        public IResult Add(Car car)
         {
-            if (car.DailyPrice>0)
+            if (car.CarName.Length<2)
             {
-                _icarDal.Add(car);
-            }
-            else
-            {
-                Console.WriteLine("Günlük kiralama ücreti 0 TL olamaz");
-            }
+                return new ErrorResult(false, Messages.CarNameLenght);
                 
+            }
+            _icarDal.Add(car);
+            return new SuccessResult(Messages.CarAdded);
             
         }
 
-        public void Add()
+        public IDataResult<List<Car>> GetAll()
         {
-            throw new NotImplementedException();
+            return new SuccessDataResult<List<Car>>(_icarDal.GetAll(), Messages.CarListed);
         }
 
-        public List<Car> GetAll()
+        public IDataResult<List<CarDetailsDto>> GetCarDetails()
         {
-            return _icarDal.GetAll();
+            return new SuccessDataResult<List<CarDetailsDto>>(_icarDal.GetCarDetails(), Messages.CarListed);
         }
 
-        public List<CarDetailsDto> GetCarDetails()
+        public IDataResult<List<Car>> GetCarsByBrandId(int Id)
         {
-            return _icarDal.GetCarDetails();
+            return new SuccessDataResult<List<Car>>(_icarDal.GetAll(p => p.BrandId == Id), Messages.CarListed);
         }
 
-        public List<Car> GetCarsByBrandId(int Id)
+        public IDataResult<List<Car>> GetCarsByColorId(int Id)
         {
-            return _icarDal.GetAll(p => p.BrandId == Id);
+            return new SuccessDataResult<List<Car>>(_icarDal.GetAll(p => p.ColorId == Id), Messages.CarListed);
         }
-
-        public List<Car> GetCarsByColorId(int Id)
-        {
-            return _icarDal.GetAll(p => p.ColorId == Id);
-        }
-
-        
     }
 }
