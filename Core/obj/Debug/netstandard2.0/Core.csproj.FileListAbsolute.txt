@@ -16,3 +16,12 @@ C:\Users\ab96085\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Cor
 C:\Users\ab96085\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
 C:\Users\ab96085\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.dll
 C:\Users\ab96085\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.pdb
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\bin\Debug\netstandard2.0\Core.deps.json
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csprojAssemblyReference.cache
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.AssemblyInfoInputs.cache
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.AssemblyInfo.cs
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.csproj.CoreCompileInputs.cache
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.dll
+C:\Users\Burdur\Documents\GitHub\ReCapProject\Core\obj\Debug\netstandard2.0\Core.pdb

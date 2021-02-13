@@ -28,7 +28,7 @@ namespace Business.Concrete
         {
             if (car.CarName.Length<2)
             {
-                return new ErrorResult(false, Messages.CarNameLenght);
+                return new ErrorResult(false);
                 
             }
             _icarDal.Add(car);

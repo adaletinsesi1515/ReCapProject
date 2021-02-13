@@ -26,3 +26,17 @@ C:\Users\ab96085\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2
 C:\Users\ab96085\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
 C:\Users\ab96085\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
 C:\Users\ab96085\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.deps.json
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\DataAccess.pdb
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.dll
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.dll
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Core.pdb
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\bin\Debug\netstandard2.0\Entities.pdb
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csprojAssemblyReference.cache
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfoInputs.cache
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.AssemblyInfo.cs
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.csproj.CopyComplete
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.dll
+C:\Users\Burdur\Documents\GitHub\ReCapProject\DataAccess\obj\Debug\netstandard2.0\DataAccess.pdb
