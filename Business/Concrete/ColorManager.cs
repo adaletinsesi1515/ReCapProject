@@ -44,29 +44,6 @@ namespace Business.Concrete
             return new SuccessResult(Messages.ColorUpdated);
         }
 
-        IDataResult<List<System.Drawing.Color>> IColorService.GetAll()
-        {
-            throw new NotImplementedException();
-        }
-
-        IDataResult<System.Drawing.Color> IColorService.GetById(int id)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IResult Add(System.Drawing.Color color)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IResult Delete(System.Drawing.Color color)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IResult Update(System.Drawing.Color color)
-        {
-            throw new NotImplementedException();
-        }
+      
     }
 }

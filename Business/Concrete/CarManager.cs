@@ -46,6 +46,18 @@ namespace Business.Concrete
             return new SuccessDataResult<List<CarDetailsDto>>(_icarDal.GetCarDetails(), Messages.CarListed);
         }
 
+        public IResult Delete(Car car)
+        {
+            _icarDal.Delete(car);
+            return new SuccessResult(Messages.CarDeleted);
+        }
+
+        public IResult Update(Car car)
+        {
+            _icarDal.Update(car);
+            return new SuccessResult(Messages.CarUpdated);
+        }
+
         public IDataResult<List<Car>> GetCarsByBrandId(int Id)
         {
             return new SuccessDataResult<List<Car>>(_icarDal.GetAll(p => p.BrandId == Id), Messages.CarListed);
