@@ -61,6 +61,15 @@
           "lib/netstandard1.5/Castle.Core.dll": {}
         }
       },
+      "FluentValidation/9.5.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/FluentValidation.dll": {}
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
         "type": "package",
         "compile": {
@@ -1561,7 +1570,8 @@
           "Autofac": "6.1.0",
           "Autofac.Extras.DynamicProxy": "6.0.0",
           "DataAccess": "1.0.0",
-          "Entities": "1.0.0"
+          "Entities": "1.0.0",
+          "FluentValidation": "9.5.1"
         },
         "compile": {
           "bin/placeholder/Business.dll": {}
@@ -1574,6 +1584,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "Castle.Core": "4.4.0",
+          "FluentValidation": "9.5.1",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.11"
         },
         "compile": {
@@ -1694,6 +1706,24 @@
         "lib/netstandard1.5/Castle.Core.dll",
         "lib/netstandard1.5/Castle.Core.xml",
         "readme.txt"
+      ]
+    },
+    "FluentValidation/9.5.1": {
+      "sha512": "By09e2m4N3giD7Giq8NCFgkgN5Hkm8Lv/bk8AadD9Xc6jjj2WDGrD6l9keZbWbkO9aygiHQREIt47iS2sVSU7w==",
+      "type": "package",
+      "path": "fluentvalidation/9.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.9.5.1.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net461/FluentValidation.dll",
+        "lib/net461/FluentValidation.xml",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/1.1.1": {
@@ -5941,19 +5971,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ab96085\\.nuget\\packages\\": {}
+    "C:\\Users\\Burdur\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\WebAPI\\WebAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\WebAPI\\WebAPI.csproj",
       "projectName": "WebAPI",
-      "projectPath": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\WebAPI\\WebAPI.csproj",
-      "packagesPath": "C:\\Users\\ab96085\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\WebAPI\\obj\\",
+      "projectPath": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\WebAPI\\WebAPI.csproj",
+      "packagesPath": "C:\\Users\\Burdur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\WebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ab96085\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Burdur\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5967,17 +5997,17 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj": {
-              "projectPath": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj"
+            "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj": {
+              "projectPath": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\Business\\Business.csproj"
             },
-            "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj": {
-              "projectPath": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj"
+            "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj": {
+              "projectPath": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\Core\\Core.csproj"
             },
-            "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj": {
-              "projectPath": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj"
+            "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+              "projectPath": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\DataAccess\\DataAccess.csproj"
             },
-            "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj": {
-              "projectPath": "C:\\Users\\ab96085\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj"
+            "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj": {
+              "projectPath": "C:\\Users\\Burdur\\Documents\\GitHub\\ReCapProject\\Entities\\Entities.csproj"
             }
           }
         }
@@ -6015,7 +6045,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

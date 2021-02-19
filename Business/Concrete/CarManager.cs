@@ -10,6 +10,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcers.Validation;
+using FluentValidation;
 
 namespace Business.Concrete
 {
@@ -23,14 +27,14 @@ namespace Business.Concrete
         }
 
 
-
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            if (car.CarName.Length<2)
-            {
-                return new ErrorResult(false);
-                
-            }
+           
+
+            ValidationTool.Validate(new CarValidator(), car);
+
+
             _icarDal.Add(car);
             return new SuccessResult(Messages.CarAdded);
             
