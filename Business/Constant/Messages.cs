@@ -44,5 +44,7 @@ namespace Business.Constant
         //Maintenance
         public static string MaintenanceTime = "Maintenance has begun.";
         public static string CarListed = "Araç listendi";
+        public static string ImagesAdded = "Resim yüklendi";
+        public static string FailAddedImageLimit = "Resim limitine erişildi!";
     }
 }

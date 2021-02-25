@@ -13,7 +13,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "ConsoleUI\Cons
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Core", "Core\Core.csproj", "{1E5E8D59-9C54-4DD3-B276-0EA5EBF194D7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F770212E-D9D0-4DEF-902E-9B5D7182C0A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "WebAPI\WebAPI.csproj", "{F770212E-D9D0-4DEF-902E-9B5D7182C0A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{AC476499-EE25-47B4-8193-A36C3CE9A36C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Desktop\882f52495b224dc78e08a2c5601a6598_2_25_2021.jpeg = ..\..\..\Desktop\882f52495b224dc78e08a2c5601a6598_2_25_2021.jpeg
+		..\..\..\Desktop\c7b8537b335e4e0ab144a73c28a24cbd_2_25_2021.jpeg = ..\..\..\Desktop\c7b8537b335e4e0ab144a73c28a24cbd_2_25_2021.jpeg
+		..\..\..\Desktop\default.jpg = ..\..\..\Desktop\default.jpg
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
